@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+:root {
+  --primary-background: #fbcfe8;
+  --primary-color: #9d174d;
+  --primary-font: 'Play', sans-serif;
+}
+
+body {
+  background-color: var(--primary-background);
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+}
+
+label,
+input {
+  display: block;
+  color: var(--primary-color);
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input {
+  margin: 1rem auto;
+  width: 60%;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+button {
+  color: white;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+#output {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 80%;
+  margin: auto;
+  height: 5rem;
+  padding-top: 2.5rem;
+  background-color: white;
+  font-size: 1.2rem;
+}
