@@ -219,7 +219,7 @@ btnCheck.addEventListener('click', () => {
       const [countPrev, prevDate] = getPrevPalindromeDate(dateValue);
       if (countNext < countPrev) {
         displayMessage(
-          `Oh no! This is not a Palindrome Date\nThe next palindrome date is ${nextDate
+          `Oh no! This is not a Palindrome Date.\nThe closest palindrome date is ${nextDate
             .reverse()
             .join('-')} which is ${countNext} day${
             countNext === 1 ? '' : 's'
@@ -227,7 +227,7 @@ btnCheck.addEventListener('click', () => {
         );
       } else {
         displayMessage(
-          `Oh no! This is not a Palindrome Date\nThe last palindrome date is ${prevDate
+          `Oh no! This is not a Palindrome Date.\nThe closest palindrome date is ${prevDate
             .reverse()
             .join('-')} which was ${countPrev} day${
             countPrev === 1 ? '' : 's'
